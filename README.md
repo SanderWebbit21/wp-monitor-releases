@@ -106,6 +106,7 @@ Voor wie de monitor 24/7 op een NAS wil laten draaien. Deze versie bewaart ook d
 ## Goed om te weten
 
 - De app praat alleen met de warmtepomp op je eigen netwerk, plus een weerdienst (Open-Meteo) voor de verwachting. Er gaat geen data naar een cloud.
+- Twee keer per dag kijkt de app op deze pagina of er een nieuwere versie is. Zo ja, dan zie je bovenin het dashboard een melding met een downloadknop. Daarbij wordt niets over jou of je warmtepomp verstuurd. In Docker zet je dit uit met `WP_UPDATE_CHECK=0`.
 - De app is gemaakt voor en getest met een Alpha Innotec-warmtepomp met bodembron en Luxtronik 2.1. Andere Luxtronik-warmtepompen werken waarschijnlijk ook, maar niet elk onderdeel van het schema zal dan kloppen.
 - Weergegevens: [Open-Meteo.com](https://open-meteo.com/) (CC BY 4.0).
 
