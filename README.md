@@ -40,9 +40,10 @@ Wat er per versie veranderd is, staat bij [Releases](https://github.com/SanderWe
 Daarna start de app voortaan gewoon met een dubbelklik.
 
 > Zie je bij stap 4 geen melding? Open de app eerst nog een keer (stap 1) en ga dan meteen naar Privacy en beveiliging. De melding staat er maar een tijdje.
+> Vraagt de Mac of WP-Monitor apparaten in je lokale netwerk mag zoeken? Klik op **Sta toe**. Anders kan de app de warmtepomp niet vinden.
 
 **3. Dagelijks gebruik**
-Rechtsboven in de menubalk staat een huisje-icoon. Daar kies je **Open dashboard** of **Stoppen**.
+Het dashboard opent in een eigen venster. Je start de app vanuit *Programma's* of het Dock. Sluit je het venster, dan stopt de app.
 
 ---
 

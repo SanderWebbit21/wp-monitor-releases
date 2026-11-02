@@ -36,7 +36,8 @@ De software bevat open-source onderdelen. Die vallen onder hun eigen licenties, 
 | Blinker | MIT | https://github.com/pallets-eco/blinker |
 | luxtronik (python-luxtronik) | MIT | https://github.com/Bouni/python-luxtronik |
 | certifi | MPL-2.0 | https://github.com/certifi/python-certifi |
-| pystray *(Mac/Windows)* | LGPL-3.0 | https://github.com/moses-palmer/pystray |
+| pywebview *(Mac)* | BSD-3-Clause | https://github.com/r0x0r/pywebview |
+| pystray *(Windows)* | LGPL-3.0 | https://github.com/moses-palmer/pystray |
 | Pillow *(Mac/Windows)*, inclusief meegeleverde beeldbibliotheken | MIT-CMU (HPND) | https://python-pillow.org |
 | PyObjC *(Mac)* | MIT | https://github.com/ronaldoussoren/pyobjc |
 | six | MIT | https://github.com/benjaminp/six |
