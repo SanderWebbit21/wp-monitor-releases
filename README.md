@@ -107,6 +107,11 @@ Voor wie de monitor 24/7 op een NAS wil laten draaien. Deze versie bewaart ook d
 
 - De app praat alleen met de warmtepomp op je eigen netwerk, plus een weerdienst (Open-Meteo) voor de verwachting. Er gaat geen data naar een cloud.
 - De app is gemaakt voor en getest met een Alpha Innotec-warmtepomp met bodembron en Luxtronik 2.1. Andere Luxtronik-warmtepompen werken waarschijnlijk ook, maar niet elk onderdeel van het schema zal dan kloppen.
-- Gebruik op eigen risico. De app leest alleen uit, maar wordt geleverd zonder garantie.
+- Weergegevens: [Open-Meteo.com](https://open-meteo.com/) (CC BY 4.0).
+
+## Licentie
+
+De app is gratis voor privé, niet-commercieel gebruik. Hij wordt geleverd zonder garantie en het gebruik is op eigen risico. Er is geen band met Alpha Innotec of de makers van Luxtronik.
+Meer staat in [LICENSE.md](LICENSE.md), samen met de gebruikte open-source onderdelen.
 
 © 2026 Webbit21
