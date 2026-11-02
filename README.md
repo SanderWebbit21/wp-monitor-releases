@@ -53,6 +53,8 @@ Daarna start de app voortaan gewoon met een dubbelklik.
 
 > Zie je bij stap 4 geen melding? Open de app eerst nog een keer (stap 1) en ga dan meteen naar Privacy en beveiliging. De melding staat er maar een tijdje.
 > Vraagt de Mac of WP-Monitor apparaten in je lokale netwerk mag zoeken? Klik op **Sta toe**. Anders kan de app de warmtepomp niet vinden.
+>
+> Zie je *"Geen verbinding met regelaar: No route to host"*, of vindt *Zoek op mijn netwerk* niets? Dan heeft de app waarschijnlijk geen toestemming voor het lokale netwerk. Ga naar **Systeeminstellingen → Privacy en beveiliging → Lokaal netwerk** en zet **WP-Monitor** aan. Staat WP-Monitor niet in de lijst? Sluit de app en open hem opnieuw, dan stelt de Mac de vraag nog een keer. Dit kan ook nodig zijn nadat je een nieuwe versie hebt geïnstalleerd.
 
 **3. Dagelijks gebruik**
 Het dashboard opent in een eigen venster. Je start de app vanuit *Programma's* of het Dock. Sluit je het venster, dan stopt de app.
