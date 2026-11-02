@@ -2,9 +2,21 @@
 
 Live dashboard voor een **Alpha Innotec-warmtepomp met Luxtronik 2.1-regelaar**.
 De app leest de warmtepomp rechtstreeks uit via je thuisnetwerk. Dat gaat sneller dan de cloud-apps.
-Hij **leest alleen** en verandert niets aan de instellingen van de warmtepomp.
+Hij **leest standaard alleen**. Alleen de Docker-versie kan, nadat je een pincode hebt ingesteld, een paar instellingen van de warmtepomp wijzigen.
 
 Je ziet een live installatieschema (bodembron, warmtepomp, vloer, boiler), temperaturen, vermogen, compressor-frequentie, wat er op dit moment actief is, en het weer.
+
+## Welke versie past bij jou?
+
+| | Mac / Windows | Docker (NAS) |
+|---|---|---|
+| Live dashboard en schema | ✓ | ✓ |
+| Draait | als je de app open hebt | 24/7 |
+| Bekijken | eigen venster (Mac) of browser (Windows), op die computer | browser, vanaf elk apparaat in huis |
+| Geschiedenis, grafieken, energie per dag/maand, inzichten | – | ✓ |
+| Instellingen wijzigen (met pincode) | – | ✓ kamertemperatuur, stooklijn, warm water, bedrijfsstand |
+
+Wil je alleen af en toe meekijken, neem dan de Mac- of Windows-app. Wil je ook de geschiedenis bijhouden en heb je een NAS, neem dan Docker.
 
 ## Downloaden
 
@@ -100,6 +112,7 @@ Voor wie de monitor 24/7 op een NAS wil laten draaien. Deze versie bewaart ook d
 
 - Instellingen en meetdata staan in `/data`. De container draait niet als root.
 - Op de setup-pagina kun je een pincode instellen. Zodra die er is, vraagt de setup-pagina eerst om die pincode.
+- **Instellingen wijzigen** zet je op de setup-pagina aan. Daarvoor moet er een pincode zijn. Daarna kun je vanuit het dashboard de kamertemperatuur, de stooklijn (eind- en voetpunt), de warmwatertemperatuur en de bedrijfsstand voor verwarmen en warm water aanpassen. Zonder pincode leest de app alleen. Wijzigen is op eigen risico: noteer vooraf je huidige instellingen.
 - Omgevingsvariabelen: `PORT` (5055), `TZ` (Europe/Amsterdam), `WP_IP` (zet het IP vast; de setup-pagina gaat dan op slot), `WP_PLACE`/`WP_LAT`/`WP_LON` (plaats voor het weer).
 
 ---
